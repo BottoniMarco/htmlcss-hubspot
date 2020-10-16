@@ -1,42 +1,67 @@
-/* * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} */
+}
 
 body {
-  background-color: red;
+  /* background-color: red;
   width: 70%;
-  margin: auto;
+  margin: auto; */
 }
 
 header {
   width: 100%;
   height: 750px;
-  background: purple
+  background: #FFF4EF;
 }
 
+.container-70 {
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-50 {
+  height: 100%;
+  width: 50%
+}
+
+.btn {
+  padding: 15px;
+  height: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  border:1px solid #FF7A59;
+  display: inline;
+  text-decoration: none;
+  background-color: #FF7A59;
+  color: white;
+}
+
+/* .btn:hover {
+  text-decoration: none;
+} */
 .top-bar {
   width: 100%;
-  height: 75px;
-  background: lightgrey;
+  height:75px;
+  background:#F4F9FD;
+  border-bottom: 1px solid black;
   /* position:absolute; */
   /* margin: auto; */
 }
 
+
 ul#menu-left {
   list-style: none;
-  /* height: 75px;
-  line-height: 75px;
-  display: inline-block; */
   display: inline-block;
-  width: 30%;
+  /* width: 30%; */
   float: left;
   line-height: 75px;
   height: 75px;
-  /* margin-top: 10px; */
   text-align: center;
-
+  padding: 0;
+  margin: 0;
 }
 
 ul#menu-left >li {
@@ -61,7 +86,7 @@ a {
 
 #menu-right {
   display: inline-block;
-  width: 30%;
+  /* width: 30%; */
   float: right;
   line-height: 75px;
   height: 75px;
@@ -90,7 +115,7 @@ a {
 nav {
   width: 100%;
   height: 75px;
-  background-color: grey;
+  background-color: white;
   /* position: relative; */
 }
 
@@ -101,6 +126,8 @@ ul#menu-nav {
   line-height: 75px;
   height: 75px;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 ul#menu-nav >li {
@@ -110,13 +137,77 @@ ul#menu-nav >li {
 
 .logo{
   float:left;
+  display: inline-block;
+  line-height: 75px;
+  height: 75px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
+#logo-nav{
+  display:inline-block;
+  margin-top: auto;
+  padding: 22px 0;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.jumbotron{
+  position: relative;
+  height: 695px;
+  padding-top: 60px;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.jumbotron ::after {
+  content: "";
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: lightblue; */
+}
+
+.jumbotron.container-50{
+  padding-top: 60px;
+}
+
+
 .box-1 {
   width: 100%;
   height: 1500px;
-  background: yellow;
+  background: #F4F9FD;
   position: relative;
 }
+
+#heading{
+  margin: auto;
+  width: 70%;
+}
+
+#title-box-1 {
+  text-align: center;
+  font-size: 42px;
+  color: #33475B
+}
+
+#sub-title-box-1 {
+  text-align: center;
+  font-size: 18px;
+  color: #33475B
+}
+
 
 .cube{
   text-align:center;
@@ -129,6 +220,44 @@ ul#menu-nav >li {
   height: 350px;
   background: white;
   margin: auto;
+  padding: 60px;
+  border-radius: 8px;
+}
+
+.crm-left{
+  width: 30%;
+  float: left;
+}
+
+#img-crm {
+  width: 150px;
+  height: 100px;
+
+}
+
+#learn-more {
+
+  margin: 30px;
+}
+
+.crm-right{
+  width: 68%;
+  float: right;
+  display: inline-block;
+  color: #33475B
+}
+
+
+#crm-list {
+  list-style: none;
+}
+
+#crm-list li{
+  padding: 0 10px;
+  line-height: 79px;
+  height: 100%;
+  display: inline-block;
+
 }
 
 main::after{
@@ -165,7 +294,7 @@ main::after{
   float: left;
   background: white;
   margin-top: 50px;
-}
+} */
 
 
 .box-2 {
