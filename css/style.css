@@ -212,13 +212,13 @@ p {
 
 #title-box-1 {
   text-align: center;
-  font-size: 42px;
+  font-size: 38px;
   color: #33475B
 }
 
 #sub-title-box-1 {
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: #33475B
 }
 
@@ -234,11 +234,12 @@ p {
 
 .container-largo {
   width: 80%;
-  height: 350px;
+  height: 300px;
   background: white;
   margin: auto;
   padding: 60px;
   border-radius: 8px;
+  border: 1px solid black;
 }
 
 .crm-left{
@@ -252,7 +253,7 @@ p {
 
 }
 
-#learn-more {
+.learn-more {
 
   margin: 30px;
 }
@@ -294,11 +295,11 @@ main::after{
 
 .hub1 {
   width: 32%;
-  height: 700px;
   float: left;
   background: white;
   margin-top: 50px;
   padding: 20px;
+  border: 1px solid black;
 }
 
 #img-marketing{
@@ -309,39 +310,139 @@ main::after{
   margin:auto;
 }
 
+.hub-top {
+  text-align:center;
+  display: block;
+  margin:auto;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #33475B;
+}
+
+.hub-top-title {
+  margin: 20px 0;
+}
+
+.hub-bottom {
+  text-align:center;
+  display: block;
+  margin:auto;
+}
+
+.hub-bottom-title {
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.hub-bottom-list {
+  list-style: none;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+
+
 .hub2 {
   width: 32%;
-  height: 700px;
   float: left;
   background: white;
   margin: 0 2%;
   margin-top: 50px;
+  padding: 20px;
+  border: 1px solid black;
 }
 
 .hub3 {
   width: 32%;
-  height: 700px;
   float: left;
   background: white;
   margin-top: 50px;
-} */
+  padding: 20px;
+  border: 1px solid black;
+}
 
 
 .box-2 {
   width: 100%;
-  height: 300px;
+  height: 700px;
   background: darkorange;
 }
 
+
 .box-3 {
   width: 100%;
-  height: 350px;
+  height: 720px;
   background: blue;
+}
+
+.container-box-3 {
+  width: 80%;
+  margin: auto;
+}
+
+.container-top {
+  width: 80%;
+  background: orange;
+}
+
+.container-top-text {
+  width: 25%;
+  height: 20%;
+  text-align: center;
+  float: left;
+}
+
+
+#customer {
+  font-size: 50px;
+}
+
+.img-1 {
+  width:135px ;
+  height: 18px;
+}
+
+.img-2 {
+  width:130px ;
+  height: 15px;
+}
+
+.img-3 {
+  width:130px ;
+  height: 38px;
+}
+
+.img-4 {
+  width:120px ;
+  height: 40px;
+}
+
+.img-5 {
+  width:115px ;
+  height: 30px;
+}
+
+.img-6 {
+  width:130px ;
+  height: 20px;
+}
+
+.img-7 {
+  width:90px ;
+  height: 11px;
+}
+
+.img-8 {
+  width:130px ;
+  height: 20px;
+}
+
+.container-logos {
+  float: right;
 }
 
 footer {
   width: 100%;
-  height: 300px;
+  height: 620px;
   background: green;
 
 }
