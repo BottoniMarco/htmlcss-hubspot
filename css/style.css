@@ -37,6 +37,87 @@ header {
   color: white;
 }
 
+/* bot */
+.bot{
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  bottom:0;
+  right:0;
+  border-bottom: 1px solid black;
+  z-index: 2;
+
+}
+
+.fas.fa-comment-alt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.fas.fa-comment-alt:hover{
+  cursor: pointer;
+}
+
+
+.container-chat{
+  height: 150px;
+  background: white;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+#chat-text {
+  padding-top: 50px;
+}
+
+.fas.fa-times {
+  color: darkgrey;
+  position: fixed;
+  top:15;
+  right:0;
+  margin-right: 20px;
+  font-size: 25px
+}
+
+.fas.fa-times:hover{
+  cursor: default;
+}
+
+.container-chat:hover{
+  cursor: pointer;
+}
+
+.circle{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background:#33475B;
+  position: fixed;
+  bottom:0;
+  right:0;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.top-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: purple;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+}
+
 /* header */
 
 /* top-bar */
