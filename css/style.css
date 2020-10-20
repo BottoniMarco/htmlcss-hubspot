@@ -63,7 +63,6 @@ header {
   cursor: pointer;
 }
 
-
 .container-chat{
   height: 150px;
   background: white;
@@ -117,6 +116,8 @@ header {
   text-align: center;
 
 }
+
+/* /bot */
 
 /* header */
 
