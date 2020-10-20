@@ -314,7 +314,7 @@ p {
 
 .box-1 {
   width: 100%;
-  height: 1500px;
+  /* height: 1500px; */
   background: #F4F9FD;
   position: relative;
 }
@@ -322,7 +322,7 @@ p {
   color: #33475B;
 }
 
-#heading{
+#heading-box-1{
   margin: auto;
   width: 70%;
 }
@@ -357,6 +357,7 @@ p {
   padding: 60px;
   border-radius: 8px;
 }
+
 
 .crm-left{
   width: 30%;
@@ -406,8 +407,14 @@ main::after{
 .container-hub {
   width: 80%;
   margin: auto;
+  margin-bottom: 50px;
 }
 
+.container-hub::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 /* hub-1 */
 
 .hub1 {
@@ -419,7 +426,7 @@ main::after{
   border-radius: 5px;
 }
 
-#img-marketing{
+.img-hub{
   width: 150px;
   height: 100px;
   text-align:center;
@@ -493,7 +500,7 @@ main::after{
   background: #00BBA9;
 }
 
-#heading {
+#heading-box-2 {
   width: 80%
 }
 
@@ -516,36 +523,54 @@ main::after{
 }
 
 .cell {
-  width: 250px;
+  width: 25%;
   height: 170px;
   float: left;
   border-right: 1px solid white;
   display: inline-block;
 }
 
-.cell-top{
-  width: 250px;
+.cell:nth-child(4){
+  width: 25%;
   height: 170px;
   float: left;
-  border-right: 1px solid white;
   border-bottom: 1px solid white;
-  display: inline-block;
-
-}
-
-#cell-end {
-  width: 250px;
-  height: 170px;
-  float: left;
+  border-right: 0px solid white;
   display: inline-block;
 }
 
-#cell-top-end{
-  width: 250px;
+.cell:nth-child(3){
+  width: 25%;
   height: 170px;
   float: left;
   border-bottom: 1px solid white;
   display: inline-block;
+}
+
+.cell:nth-child(2){
+  width: 25%;
+  height: 170px;
+  float: left;
+  border-bottom: 1px solid white;
+  display: inline-block;
+}
+
+.cell:nth-child(1){
+  width: 25%;
+  height: 170px;
+  float: left;
+  border-bottom: 1px solid white;
+  display: inline-block;
+}
+
+
+.cell:last-child {
+  width: 25%;
+  height: 170px;
+  float: left;
+  border-right: 0px solid white;
+  display: inline-block;
+
 }
 
 .cell-img {
@@ -591,7 +616,6 @@ main::after{
 .container-box-3 {
   width: 80%;
   margin: auto;
-  background: purple;
 }
 
 .container-top {
@@ -677,7 +701,12 @@ main::after{
   position:relative;
   top: 300px;
   width: 100%;
-  background: red;
+}
+
+.container-bottom::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .container-bottom-text {
@@ -710,7 +739,9 @@ main::after{
 .woman-pic {
   position: absolute;
   float: right;
-  margin-left: 750px
+  margin-left: 400px;
+  text-align: right;
+  display: inline-block;
 }
 
 #woman {
